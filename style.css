@@ -1,0 +1,44 @@
+*{margin: 0;padding: 0;}
+body{
+  background-color: rgb(153, 153, 153);
+}
+.yep {
+  color: green;
+}
+
+.nope {
+  color: red;
+}
+
+.cancel {
+  color: yellow;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.voices {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 1%;
+}
+
+button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.selected-voice {
+  background: rgb(64, 66, 64);
+}
+.voice{
+  width: 400px;
+  height: 100px;
+  position: absolute;
+
+}
